@@ -1,0 +1,80 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ec5e7e, #a54caa, #85daea);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  border-radius: 10px;
+}
+
+.gradient-background-br {
+  background: linear-gradient(300deg, #ec5e7e, #a54caa, #85daea);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+hr {
+  background-color: #ec5e7e;
+}
+
+.cat-headshot {
+  border-radius: 50%;
+  border: 1px white solid;
+}
+
+.favicon {
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.greeting {
+  color: white;
+}
+
+.introduction-paragraph {
+  color: white;
+}
+
+.resume-btn {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home-btn {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.backtotop-btn {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.work-btn {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer-text {
+  color: white;
+}
+
+.resume-header {
+  color: white;
+}
+
+.social-media {
+  color: black;
+  box-shadow: 5px 5px 5px #cc616f;
+}
+
+.env-img {
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
